@@ -7,10 +7,13 @@ class AuthScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title: const Text('Auth',
-        style: TextStyle(
-          color: Colors.white,
-        ),
+        title: InkWell(
+          onTap: (){},
+          child: const Text('login',
+          style: TextStyle(
+            color: Colors.red,
+          ),
+          ),
         ),
       ),
       body: const Center(
